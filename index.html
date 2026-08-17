@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#050914" />
+  <title>International Pods — Catálogo</title>
+  <meta name="description" content="Catálogo institucional International Pods. Consulte modelos, marcas e disponibilidade." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="ageGate" class="age-gate">
+    <div class="age-card">
+      <div class="mini-logo">IP</div>
+      <p class="eyebrow">ACESSO RESTRITO</p>
+      <h2>Conteúdo destinado a maiores de 18 anos</h2>
+      <p>Confirme sua idade para visualizar o catálogo institucional.</p>
+      <div class="age-actions">
+        <button id="confirmAge" class="btn primary">Tenho 18 anos ou mais</button>
+        <button id="leaveSite" class="btn ghost">Sair</button>
+      </div>
+    </div>
+  </div>
+
+  <header class="nav">
+    <a class="brand" href="#inicio" aria-label="International Pods">
+      <span class="brand-mark">IP</span>
+      <span><strong>INTERNATIONAL</strong><small>PODS</small></span>
+    </a>
+    <nav>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#diferenciais">Diferenciais</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta" href="#catalogo">Explorar</a>
+  </header>
+
+  <main>
+    <section id="inicio" class="hero">
+      <div class="hero-glow glow-one"></div>
+      <div class="hero-glow glow-two"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">INTERNATIONAL PODS • CATÁLOGO 2026</p>
+        <h1>Visual premium.<br><span>Escolhas sem complicação.</span></h1>
+        <p class="hero-text">Conheça nossa seleção de dispositivos e linhas disponíveis em um catálogo moderno, rápido e feito para celular.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#catalogo">Ver catálogo</a>
+          <a class="btn ghost" href="#diferenciais">Conhecer a loja</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>+18</strong><span>acesso responsável</span></div>
+          <div><strong>100%</strong><span>visual responsivo</span></div>
+          <div><strong>Rápido</strong><span>feito para mobile</span></div>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <div class="device-stage">
+          <div class="device device-a"><span>IGNITE</span></div>
+          <div class="device device-b"><span>ELFBAR</span></div>
+          <div class="device device-c"><span>GEEK BAR</span></div>
+        </div>
+        <div class="hero-card-footer">
+          <span>DESTAQUES</span>
+          <strong>Seleção International</strong>
+        </div>
+      </div>
+    </section>
+
+    <section id="catalogo" class="catalog-section">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">NOSSO CATÁLOGO</p>
+          <h2>Encontre seu modelo</h2>
+        </div>
+        <label class="search">
+          <span>⌕</span>
+          <input id="searchInput" type="search" placeholder="Buscar marca ou modelo..." />
+        </label>
+      </div>
+
+      <div class="chips" id="chips">
+        <button class="chip active" data-filter="Todos">Todos</button>
+        <button class="chip" data-filter="Ignite">Ignite</button>
+        <button class="chip" data-filter="Elfbar">Elfbar</button>
+        <button class="chip" data-filter="Geek Bar">Geek Bar</button>
+        <button class="chip" data-filter="Outros">Outros</button>
+      </div>
+
+      <div class="product-grid" id="productGrid"></div>
+      <p class="catalog-note">Catálogo demonstrativo. Modelos, sabores e disponibilidade podem variar.</p>
+    </section>
+
+    <section id="diferenciais" class="benefits">
+      <article>
+        <span class="benefit-icon">✦</span>
+        <h3>Seleção organizada</h3>
+        <p>Produtos separados por marca e modelo para uma consulta rápida.</p>
+      </article>
+      <article>
+        <span class="benefit-icon">⌁</span>
+        <h3>Experiência mobile</h3>
+        <p>Interface otimizada para abrir bem no celular, tablet ou computador.</p>
+      </article>
+      <article>
+        <span class="benefit-icon">✓</span>
+        <h3>Informações claras</h3>
+        <p>Detalhes de cada linha em cards simples, modernos e fáceis de comparar.</p>
+      </article>
+    </section>
+
+    <section id="contato" class="contact">
+      <div>
+        <p class="eyebrow">INTERNATIONAL PODS</p>
+        <h2>Informação e atendimento em um só lugar.</h2>
+        <p>Use esta área para informar endereço comercial, horários e canais oficiais de atendimento da sua marca.</p>
+      </div>
+      <div class="contact-card">
+        <div><span>Horário</span><strong>Seg a Sáb • 09h às 20h</strong></div>
+        <div><span>Instagram</span><strong>@internationalpods</strong></div>
+        <div><span>Atendimento</span><strong>Consulte nossos canais oficiais</strong></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">IP</span>
+      <span><strong>INTERNATIONAL</strong><small>PODS</small></span>
+    </a>
+    <p>Venda proibida para menores de 18 anos.</p>
+    <small>© 2026 International Pods. Todos os direitos reservados.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
